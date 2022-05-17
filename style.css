@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+
+nav {
+background-color: #f4f3f3;
+height: 7vh;
+display: flex;
+}
+
+nav div {
+    align-items: center;
+    display: flex;
+}
+
+nav .left-side {
+padding-left: 80px;
+flex: 50%;
+}
+
+nav .right-side {
+background-color: #94c096;
+padding-right: 90px;
+flex: 50%;
+justify-content: flex-end;
+}
+
+nav ul {
+margin-left: 40px;
+list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+margin-left: 40px;
+}
+
+nav ul li a {
+color: #638364;
+text-decoration: none;
+}
+
+nav ul li a.active {
+color: #94a1c0;
+font-weight: 700;
+    }
+
+nav .right-side a {
+background-color: #f4f3f3;
+border: none;
+border-radius: 10px;
+padding: 8px 20px;
+font-size: 15px;
+color: #6b768f;
+text-decoration: none ;
+}
+
+.container-content {
+padding: 0px;
+width: 100%;
+border: none;
+border-radius: 10px;
+height: 93vh;
+align-items: center;
+justify-content: center;
+display: flex;
+box-shadow: 0px 0px 20px 0px rgb(172, 167, 167)
+}
+
+.container-content .left {
+flex: 60%;
+margin-left: 90px;
+}
+
+
+.container-content .right {
+flex: 40%;
+margin-right: 10px;
+}
+
+
+.container-content .left p {
+font-size: 18px;
+color: gray;
+text-align: justify;
+margin-bottom: 40px;
+margin-top: 45px;
+}
+
+.container-content .left .contact {
+height: 30px;
+display: flex;
+margin-bottom: 30px;
+}
+
+.container-content .left .contact button {
+color: white;
+background-color: black;
+font-size: 20px;
+border: none;  
+padding: 0px 23px;
+border-radius: 15px;
+text-align: center;
+text-decoration: none;
+font-size: 13px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.container-content .left .contact p {
+color: black;
+margin-left: 20px;
+margin-top: 4px;
+}
+
+.container-content .left .contact p i {
+margin-left: 10px;
+color: black;
+}
+
+.container-content .left .sosmed {
+display: flex;
+}
+
+.container-content .left .sosmed a {
+font-size: 30px;
+color: black;
+margin-top: 15px;
+margin-right: 20px;
+}
+
